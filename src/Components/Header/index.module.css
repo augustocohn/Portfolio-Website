@@ -1,0 +1,47 @@
+
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+
+    border-bottom: 1px solid #333;
+    background-color: #111;
+}
+
+.header_bar {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 5px;
+
+    color: #999
+}
+
+.header_bar h3 {
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 12pt;
+    letter-spacing: -1px;
+}
+
+.header_bar h3:hover {
+    background-color: #3e3e42;
+}
+
+
+.header_bar > .links {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}

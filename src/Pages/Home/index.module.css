@@ -1,0 +1,30 @@
+.home_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+
+    position: absolute;
+    left: 10%;
+    top: 35%;
+
+    color: #007acc;
+}
+
+.home_nav_divider {
+    height: 5px;
+    width: 70%;
+    border-radius: 6px;
+    background-color: black;
+}
+
+.home_nav_options {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10em;
+
+    margin-top: 0.5em;
+
+    font-weight: bold;
+}

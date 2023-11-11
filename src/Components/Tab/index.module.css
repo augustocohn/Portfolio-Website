@@ -1,0 +1,38 @@
+
+
+.tab_wrapper {
+    position: absolute;
+    /*
+    left and top defined by parent
+    */
+
+    height: 30px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    background-color: #111;
+    border: 1px solid #333;
+    color: #111;
+}
+
+.tab_file {
+    display: flex;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    align-items: center;
+
+    border: 1px solid #333;
+    border-bottom: 0;
+    border-left: 0;
+    background-color: #222;
+}
+
+.tab_file > p {
+    font-size: 9pt;
+    color: #82b74b;
+    margin-left: 3px;
+}

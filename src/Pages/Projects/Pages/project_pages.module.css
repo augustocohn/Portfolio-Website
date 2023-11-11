@@ -1,0 +1,12 @@
+
+.projects_wrapper {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+
+.project_title {
+    color: #999;
+    text-shadow: 2px 2px 1px #111;
+}

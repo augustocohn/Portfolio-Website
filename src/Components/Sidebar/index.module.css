@@ -1,0 +1,28 @@
+
+
+.sidebar_wrapper {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+
+
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 100%;
+
+    border: 1px solid #333;
+    border-left: 0px;
+    background-color: #111;
+
+}
+
+.icons > a > svg {
+    margin-left: 0px;
+    padding: 15px 0px 15px 10px;
+}
+
+.icons > a > svg:hover {
+    border-left: 2px solid #007acc;
+    padding-left: 8px;
+}

@@ -1,0 +1,92 @@
+
+.about_wrapper {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    height: 100%;
+    width: 47.55%;
+
+    margin-left: -40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #999;
+}
+
+.about_wrapper > h1 {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+
+    font-size: 60pt;
+}
+
+.about_wrapper > h1 > img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info {
+    width: 60%;
+}
+
+.internships {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15%;
+
+    border-left: 1px solid #333;
+    color: #999;
+}
+
+.internship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    width: 100%;
+}
+
+.internship > p {
+    width: 80%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.skills_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+
+    border: 2px solid black;
+    border-radius: 4px;
+
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
