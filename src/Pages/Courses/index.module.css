@@ -1,7 +1,62 @@
 
 
-.courses_wrapper {
+.education_wrapper {
     position: absolute;
     top: 60px;
     left: 80px;
+
+    color: #999;
+}
+
+.education_title > h1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 50pt;
+    text-shadow: 2px 2px 1px black;
+}
+
+.education_title > a {
+    color: #69b7cf;
+    margin-left: 10px;
+}
+
+.uf_wrapper {
+    position: absolute;
+    top: 21%;
+    left: 50px;
+    height: 80%;
+    width: 48%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #999;
+}
+
+.uf_wrapper > img {
+    margin-top: 45px;
+    margin-bottom: 55px;
+    height: 100px;
+    width: 600px;
+}
+
+.gt_wrapper {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    height: 82%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-left: 1px solid #333;
+    color: #999;
+}
+
+.gt_wrapper > img {
+    height: 200px;
+    width: 600px;
 }

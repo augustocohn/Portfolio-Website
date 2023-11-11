@@ -3,7 +3,6 @@ import Icon from '../Icon/index.js'
 
 import { Link } from 'react-router-dom'
 
-
 const Sidebar = () => {
 
     const d_color = '#999'
@@ -18,7 +17,7 @@ const Sidebar = () => {
                     <Link to='/about'>
                         <Icon icon='about_me' color={d_color} size={d_size} />
                     </Link>
-                    <Link to='/courses'>
+                    <Link to='/education'>
                         <Icon icon='course_work' color={d_color} size={d_size} />
                     </Link>
                     <Link to='/projects'>
