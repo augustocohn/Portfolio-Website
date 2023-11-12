@@ -1,20 +1,19 @@
 
 
 .tab_wrapper {
-    position: absolute;
-    /*
-    left and top defined by parent
-    */
+    top: 0%;
+    left: 0%;
 
     height: 30px;
+    width: 100%;
 
     display: flex;
     justify-content: left;
     align-items: center;
 
     background-color: #111;
-    border: 1px solid #333;
     color: #111;
+    border-bottom: 1px solid #333;
 }
 
 .tab_file {
@@ -25,9 +24,8 @@
 
     align-items: center;
 
-    border: 1px solid #333;
-    border-bottom: 0;
-    border-left: 0;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #222;
     background-color: #222;
 }
 

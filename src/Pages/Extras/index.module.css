@@ -1,0 +1,13 @@
+
+.extras_wrapper {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    height: 100%;
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

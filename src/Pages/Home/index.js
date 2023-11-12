@@ -3,12 +3,38 @@ import styles from './index.module.css'
 
 import Icon from '../../Components/Icon'
 import Tab from '../../Components/Tab'
+import Window from '../../Components/Window'
+
+const Title = () => {
+
+
+    return (
+        <div className={styles.welcome_title}>
+            <h1 style={{
+                color: '#69b7cf',
+                textShadow: '2px 2px 1px black',
+                fontSize: 'calc(15pt + 2vw)',
+            }}>__name__</h1>
+            <h1 style={{
+                color: '#999',
+                fontSize: 'calc(10pt + 2vw)',
+            }}>==</h1>
+            <h1 style={{
+                color: 'orange',
+                textShadow: '2px 2px 1px black',
+                fontSize: 'calc(16pt + 2vw)'
+            }}>Augusto Cohn</h1>
+        </div>
+    )
+}
+
+
 
 const Home = () => {
 
     return (
-        <>
-            <Tab name='welcome.py' width='98%' type='python_filled' start_top='40px' start_left='50px' />
+        <div className={styles.welcome_wrapper}>
+            {/* <Tab name='welcome.py' width='98%' type='python_filled' start_top='40px' start_left='50px' />
             <Tab name='info.txt' width='50%' type='text_file' start_top='40%' start_left='50px' />
             <Tab name='plans.txt' width='50%' type='text_file' start_top='40%' start_left='50%' />
             <div className={styles.welcome_title}>
@@ -54,8 +80,14 @@ const Home = () => {
                     This website is a work in progress and being updated regularly. 
                     Check back for new projects, designs, pages and information...
                 </p>
-            </div>
-        </> 
+            </div> */}
+            <Window width='100%' height='30%' tab_name='welcome.txt' tab_type='text_file' content={
+                <Title />
+            }>
+            </Window>
+            <Window width='49%' height='70%' tab_name='info.txt' tab_type='text_file' />
+            <Window width='49%' height='70%' tab_name='warning.txt' tab_type='text_file' />
+        </div> 
     )
 
 }

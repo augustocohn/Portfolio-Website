@@ -1,0 +1,17 @@
+
+
+.window_wrapper {
+    height: 50%;
+    width: 100%;
+
+    max-width: 49%;
+    min-width: 300px;
+
+    border: 1px solid #333;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
