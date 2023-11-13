@@ -1,12 +1,24 @@
-
-.projects_wrapper {
-    position: absolute;
-    top: 60px;
-    left: 80px;
-}
-
-
 .project_title {
     color: #999;
     text-shadow: 2px 2px 1px #111;
+}
+
+.lunar_lander {
+    height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sutton_recreation {
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pokemon_gan {
+    height: inherit;
 }
