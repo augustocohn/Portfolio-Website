@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className={styles.sidebar_wrapper}>
                 <div className={styles.icons}>
                     <Link to='/'>
-                    <Icon icon='home' color={d_color} size={d_size} />
+                        <Icon icon='home' color={d_color} size={d_size} />
                     </Link>
                     <Link to='/about'>
                         <Icon icon='about_me' color={d_color} size={d_size} />
@@ -26,6 +26,12 @@ const Sidebar = () => {
                     <Link to='/extras'>
                         <Icon icon='extras' color={d_color} size={d_size} />
                     </Link>
+                    <a href='https://github.com/augustocohn' rel="noopener noreferrer" target="_blank">
+                        <Icon icon='github' color='#ff9248' size='30px' />
+                    </a>
+                    <a href='https://www.linkedin.com/in/augusto-cohn/' rel="noopener noreferrer" target="_blank">
+                        <Icon icon='linkedin' color='#0077b5' size='30px' />
+                    </a>
                 </div>
             </div>
     )
