@@ -169,13 +169,13 @@ const About = () => {
 
     return (
         <div className={styles.about_wrapper}>
-            <Window width='50%' height='100%' tab_name='about_me.txt' tab_type='text_file' content={
+            <Window column='1' row='1 / 3' tab_name='about_me.txt' tab_type='text_file' content={
                 <AboutMeSection />
             } />
-            <Window width='50%' height='50%' tab_name='amazon.py' tab_type='python_filled' content={
+            <Window column='2' row='1' tab_name='amazon.py' tab_type='python_filled' content={
                 <Amazon skillsAmazon={skills_amazon} />
             } />
-            <Window width='50%' height='49.69%' tab_name='trimble.txt' tab_type='text_file' content={
+            <Window column='2' row='2' tab_name='trimble.txt' tab_type='text_file' content={
                 <Trimble skillsTrimble={skills_trimble} />
             } />
         </div>

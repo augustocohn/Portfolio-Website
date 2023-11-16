@@ -1,22 +1,60 @@
 .project_title {
     color: #999;
-    text-shadow: 2px 2px 1px #111;
+    text-shadow: 5px 5px 5px #111;
+    margin-left: 2%;
+    text-align: center;
 }
 
 .lunar_lander {
-    height: inherit;
+    height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
 }
 
-.sutton_recreation {
-    height: inherit;
+.lunar_lander p {
+    margin-left: 2%;
+    margin-right: 1%;
+}
 
+.lander_demo {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.lander_demo img {
+    width: 50%;
+    border: 4px solid black;
+}
+
+.lander_demo_options {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.lander_demo_options > button {
+    width: 100px;
+    height: 100%;
+
+    border: 2px solid black;
+    border-radius: 6px;
+
+    color: purple;
+    font-size: 16pt;
+}
+
+.sutton_recreation {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
 }
 
 .pokemon_gan {

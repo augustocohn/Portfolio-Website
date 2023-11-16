@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 import styles from './index.module.css'
 
-import Tab from '../../Components/Tab'
 import Navigator from '../../Components/Navigator'
 import { 
     LunarLander,

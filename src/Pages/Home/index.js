@@ -2,7 +2,6 @@
 import styles from './index.module.css'
 
 import Icon from '../../Components/Icon'
-import Tab from '../../Components/Tab'
 import Window from '../../Components/Window'
 
 const Title = () => {
@@ -86,14 +85,14 @@ const Home = () => {
 
     return (
         <div className={styles.welcome_wrapper}>
-            <Window width='100%' height='30%' tab_name='welcome.txt' tab_type='text_file' content={
+            <Window row='1' column='1 / 3' tab_name='welcome.txt' tab_type='text_file' content={
                 <TitleSection />
             }>
             </Window>
-            <Window width='49%' height='70%' tab_name='info.txt' tab_type='text_file' content={
+            <Window row='2' column='1' tab_name='info.txt' tab_type='text_file' content={
                 <InfoSection />
             }/>
-            <Window width='49%' height='70%' tab_name='warning.txt' tab_type='text_file' content={
+            <Window row='2' column='2' tab_name='warning.txt' tab_type='text_file' content={
                 <WarningSection />
             }/>
         </div> 

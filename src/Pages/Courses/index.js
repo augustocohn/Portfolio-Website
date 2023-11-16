@@ -51,10 +51,10 @@ const Courses = () => {
 
     return (
         <div className={styles.education_wrapper}>
-            <Window width='50%' height='100%' tab_name='uf.txt' tab_type='text_file' content={
+            <Window column='1' tab_name='uf.txt' tab_type='text_file' content={
                 <UF />
             }/>
-            <Window width='49.69%' height='100%' tab_name='gt.txt' tab_type='text_file' content={
+            <Window column='2' tab_name='gt.txt' tab_type='text_file' content={
                 <GT />
             } />
         </div>
