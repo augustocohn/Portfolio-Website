@@ -69,6 +69,11 @@ const WarningSection = () => {
                 resume with interactive projects which is connected to a Flask 
                 backend.
             </p>
+            <h2>This site is not designed to be viewed on mobile</h2>
+            <p>
+                If content is not fit to screen, zoom out to be able to view. I 
+                am working on making this site accessible from any device.
+            </p>
             <h3>Features Planned</h3>
             <ul>
                 <li>Mobile Support</li>

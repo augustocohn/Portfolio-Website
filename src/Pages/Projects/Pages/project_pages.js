@@ -46,12 +46,28 @@ const LunarLanderDemo = () => {
 
     return (
         <div className={styles.lander_demo}>
-            <Title title={'Training GIFs here'} />
+            <Title title={'Viewing training episode ' + episode} />
             <img src={episodes[episode]} alt='Episodes' />
             <p>Select training episode to view</p>
             <div className={styles.lander_demo_options}>
                 {mapped}
             </div>
+        </div>
+    )
+
+}
+
+const LunarLanderHightlights = () => {
+
+    return (
+        <div className={styles.lunar_lander_highlights}>
+            <Title title={'Skills / Algorithms'} />
+            <ul>
+                <li>DQN</li>
+                <li>Memory Replay Buffer</li>
+                <li>Target Network</li>
+                <li>Exploration epsilon decay</li>
+            </ul>
         </div>
     )
 
@@ -108,7 +124,7 @@ const LunarLander = () => {
                 <LunarLanderDemo />        
             } />
             <Window row='2' column='2' tab_name='highlights.py' tab_type='python_filled' content={
-                <Title title={'Skills / Algorithms'} />
+                <LunarLanderHightlights />
             } />
         </div>
     )

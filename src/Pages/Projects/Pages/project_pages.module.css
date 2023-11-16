@@ -49,6 +49,12 @@
     font-size: 16pt;
 }
 
+.lunar_lander_highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sutton_recreation {
     height: 100%;
 
